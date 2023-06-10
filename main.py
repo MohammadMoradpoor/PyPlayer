@@ -76,7 +76,7 @@ scroll_y.config(command=playlist.yview)
 scroll_y.pack(side=RIGHT, fill=Y)
 playlist.pack(fill=BOTH)
 
-os.chdir(r"/home/mohamad/Music/Music/Favorite_songs")
+os.chdir(r"E:\Music")
 songtracks = os.listdir()
 for track in songtracks:
     if ".mp3" in track:
